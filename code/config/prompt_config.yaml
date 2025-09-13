@@ -38,7 +38,7 @@ ai_assistant_system_prompt_advanced:
     - Avoid providing code examples in your response unless specifically asked to.
 
 rag_assistant_prompt:
-  description: "Week 3 - RAG assistant prompt"
+  description: "Class 9th Math Guide - RAG assistant prompt"
   role: |
     A helpful assistant that can answer the users questions given some relevant documents.
   style_or_tone:

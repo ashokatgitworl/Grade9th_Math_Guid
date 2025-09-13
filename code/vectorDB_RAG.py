@@ -5,7 +5,7 @@ from utils import load_yaml_config
 from prompt_builder import build_prompt_from_config
 from langchain_groq import ChatGroq
 from paths import APP_CONFIG_FPATH, PROMPT_CONFIG_FPATH, OUTPUTS_DIR
-from E05 import get_db_collection, embed_documents
+from DataIngestion import get_db_collection, embed_documents
 
 logger = logging.getLogger()
 

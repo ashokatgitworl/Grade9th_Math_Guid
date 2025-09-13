@@ -138,7 +138,11 @@ def main():
     insert_publications(collection, publications)
 
     print(f"Total documents in collection: {collection.count()}")
-
+    print(f"Total documents in collection: {collection.query("SELECT DISTINCT metadata FROM embeddings")}")
+    # for coll in collection:
+    #     print("Collection:", coll.name)
+    #     docs = coll.get(include=["metadatas", "documents"])
+    #     print(docs)
 
 if __name__ == "__main__":
     main()
